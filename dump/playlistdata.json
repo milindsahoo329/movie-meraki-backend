@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "62f98b596f87acc7c30f42fb"
+  },
+  "userId": "113187021425586892594",
+  "playlistName": "Fantastic Fiction",
+  "playlistDescription": "Best Fiction Movies",
+  "playlistId": 1,
+  "likes": 0,
+  "contentsArray": [
+    "3",
+    "4"
+  ]
+},{
+  "_id": {
+    "$oid": "62fad92ec458cc3d28e66e38"
+  },
+  "userId": "12345",
+  "playlistName": "Star Wars Marathon",
+  "playlistDescription": "Love for Star Wars",
+  "playlistId": 2,
+  "likes": 30,
+  "contentsArray": [
+    "4",
+    "5",
+    "6"
+  ]
+},{
+  "_id": {
+    "$oid": "62fad92ec458cc3d28e66e39"
+  },
+  "userId": "12345",
+  "playlistName": "Narnia Fans",
+  "playlistDescription": "Love for the Chronicles of Narnia",
+  "playlistId": 3,
+  "likes": 40,
+  "contentsArray": [
+    "7",
+    "8"
+  ]
+},{
+  "_id": {
+    "$oid": "62fad92ec458cc3d28e66e3a"
+  },
+  "userId": "12345",
+  "playlistName": "Rings of Power",
+  "playlistDescription": "Frodo's Jouney",
+  "playlistId": 4,
+  "likes": 40,
+  "contentsArray": [
+    "1",
+    "2",
+    "3"
+  ]
+}]

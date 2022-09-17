@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "62eea41eea9e1f2828979cb6"
+  },
+  "name": "Lord of The Rings",
+  "sub_name": "The Fellowship of the Ring",
+  "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+  "type": "movie",
+  "running_time_min": 200,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": "1",
+  "imagePath": "/images/fellowship.jpg"
+},{
+  "_id": {
+    "$oid": "62eea41eea9e1f2828979cb7"
+  },
+  "name": "Lord of The Rings",
+  "sub_name": "The Two Towers",
+  "description": "In the second part of the Tolkien trilogy, Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring",
+  "type": "movie",
+  "running_time_min": 210,
+  "imdb_rating": 9,
+  "rotten_tomatoes": 90,
+  "id": "2",
+  "imagePath": "/images/twotowers.jpg"
+},{
+  "_id": {
+    "$oid": "62eea41eea9e1f2828979cb8"
+  },
+  "name": "Lord of The Rings",
+  "sub_name": "The Return of the King",
+  "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring",
+  "type": "movie",
+  "imdb_rating": 10,
+  "rotten_tomatoes": 95,
+  "id": "3",
+  "imagePath": "/images/returnking.jpg"
+},{
+  "_id": {
+    "$oid": "62f91954c458cc3d28e66e33"
+  },
+  "name": "Star Wars",
+  "sub_name": "The Phantom Menace",
+  "description": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory",
+  "type": "movie",
+  "running_time_min": 150,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": 4,
+  "imagePath": "/images/phantommenace.jpg"
+},{
+  "_id": {
+    "$oid": "62f91954c458cc3d28e66e34"
+  },
+  "name": "Star Wars",
+  "sub_name": "Attack of the Clones",
+  "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+  "type": "movie",
+  "running_time_min": 200,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": 5,
+  "imagePath": "/images/clones.jpg"
+},{
+  "_id": {
+    "$oid": "62f91954c458cc3d28e66e35"
+  },
+  "name": "Star Wars",
+  "sub_name": "Revenge of the Sith",
+  "description": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+  "type": "movie",
+  "running_time_min": 200,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": 6,
+  "imagePath": "/images/revengesith.jpg"
+},{
+  "_id": {
+    "$oid": "62f91954c458cc3d28e66e36"
+  },
+  "name": "The Chronicles of Narnia",
+  "sub_name": "The Lion, the Witch and the Wardrobe",
+  "description": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+  "type": "movie",
+  "running_time_min": 200,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": 7,
+  "imagePath": "/images/narnialion.jpg"
+},{
+  "_id": {
+    "$oid": "62f91954c458cc3d28e66e37"
+  },
+  "name": "The Chronicles of Narnia",
+  "sub_name": "Prince Caspian",
+  "description": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
+  "type": "movie",
+  "running_time_min": 200,
+  "imdb_rating": 10,
+  "rotten_tomatoes": 100,
+  "id": 8,
+  "imagePath": "/images/narniacaspian.jpg"
+}]

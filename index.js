@@ -1,23 +1,23 @@
 import app from './server.js';
 import mongodb from "mongodb";
 import dotenv from "dotenv";
-import MoviesDAO from './dao/moviesDAO.js';
-import ReviewsDAO from './dao/reviewsDAO.js';
-import FavoritesDAO from './dao/favoritesDAO.js';
+
+import OttContentsDAO from './dao/ottContentsDAO.js';
+import PlaylistsDAO from './dao/playlistsDAO.js';
 
 async function main() {
     dotenv.config();
 
-    const client = new mongodb.MongoClient(process.env.MOVIE_REVIEWS_DB_URI);
+    const client = new mongodb.MongoClient(process.env.MOVIE_MERAKI_DB_URI);
 
     const port = process.env.PORT || 8000;
 
     try {
 
         await client.connect();
-        await MoviesDAO.injectDB(client);
-        await ReviewsDAO.injectDB(client);
-        await FavoritesDAO.injectDB(client);
+
+        await OttContentsDAO.injectDB(client);
+        await PlaylistsDAO.injectDB(client);
 
         app.listen(port, () => {
             console.log("Sever is running at port - " + port);
